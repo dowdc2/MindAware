@@ -1,4 +1,4 @@
-html {
+body {
 	  font-family: 'Quattrocento Sans', sans-serif;
 }
 
@@ -7,19 +7,40 @@ html {
       	   color: white;
 }*/
 
+/* navbar css */
+
 #bs-example-navbar-collapse-1 {
       background: #57bb89;
       text-align: center;
       margin: -15px;
+      font-size: 16px;
 }
 
-
-/* mouse over link */
-#bs-example-navbar-collapse-1:hover { 
-	color: #F3D46F;
+.navbar-custom .navbar-nav > li > a {
+    color:white;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: white;
 }
 
-h1 {
-	font-size: 100px;
-	color: white;
+.navbar-custom .navbar-brand {
+    color:white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+	text-decoration: none; 
+	color: #f3d46f; 
+	background: none;
+}
+
+/* navbar dropdown css */
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+	clear: both;
+	color: #f3d46f;
+}
+
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    text-decoration: none; 
+	color: #57bb89; 
 }
