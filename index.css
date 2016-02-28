@@ -2,20 +2,23 @@ html {
 	  font-family: 'Quattrocento Sans', sans-serif;
 }
 
-#homepage {
+/*#homepage {
       	   text-align: center;
       	   color: white;
-}
+}*/
 
 #bs-example-navbar-collapse-1 {
       background: #57bb89;
       text-align: center;
       margin: -15px;
 }
+
+
 /* mouse over link */
-a:hover{ 
+#bs-example-navbar-collapse-1:hover { 
 	color: #F3D46F;
 }
+
 h1 {
 	font-size: 100px;
 	color: white;
