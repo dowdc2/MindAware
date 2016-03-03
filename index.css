@@ -1,25 +1,106 @@
-html {
-	  font-family: 'Quattrocento Sans', sans-serif;
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
 }
 
 /*#homepage {
-      	   text-align: center;
-      	   color: white;
+           text-align: center;
+           color: white;
 }*/
+
+/* navbar css */
 
 #bs-example-navbar-collapse-1 {
       background: #57bb89;
       text-align: center;
       margin: -15px;
+      font-size: 16px;
 }
 
-
-/* mouse over link */
-#bs-example-navbar-collapse-1:hover { 
-	color: #F3D46F;
+.navbar-custom .navbar-nav > li > a {
+    color:white;
 }
-body {
-  text-align: center;
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: white;
+}
+
+.navbar-custom .navbar-brand {
+    color:white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+  text-decoration: none; 
+  color: #f3d46f; 
+  background: none;
+}
+
+/* navbar dropdown css */
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+  clear: both;
+  color: #f3d46f;
+}
+
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    text-decoration: none; 
+  color: #57bb89; 
+}
+
+/*carousel*/
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+
+.carousel-control {
+    height: 80px;
+    margin-top: 200;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+}
+
+.carousel {
+    margin-bottom: 60px;
+    margin-top: -22px;
+}
+
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+
+.carousel .item {
+    height: 500px;
+}
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 10px 20px 30px 250px;
+    margin-top: 200px;
+}
+.carousel-caption h3,
+.carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    font-size: 40px;
+}
+.carousel-caption .btn {
+    margin-top: 10px;
 }
 
 .wrapper {
